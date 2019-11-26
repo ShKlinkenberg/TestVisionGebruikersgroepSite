@@ -1,8 +1,10 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "https://shklinkenberg.github.io/"
 title = "TestVision Gebruikersgroep"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
+enableEmoji = true
+publishDir = "docs"
 
 [params]
   
@@ -18,12 +20,12 @@ theme = "hugo-elate-theme"
 
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "TVG"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
+    services = "Doelen"
+    about = "Kernteam"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -44,38 +46,38 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "TestVision Gebruikersgroep"
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    subtitle = 'De Nederlandse TestVision gebruikersgroep wordt gerund door gebruikers van TestVision en is toegankelijk voor alle<br> gebruikers.<br><br>Meld je hieronder aan om op onze mailinglijst te komen.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Events"
+    description = "De verslagen van onze evenementen zullen onder deze pagina beschikbaar komen."
     url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
+    button = "Events"
+    icon = "icon-calendar"
+    img = "img_8.jpg"
+    
+  [[params.intro.item]]
+    title = "Mailinglijst"
+    description = "Je kan je hier aanmelden voor de mailinglijst. Zo kan je vragen stellen aan de community."
+    url = "https://nlpsych.eu.qualtrics.com/jfe/form/SV_cMezO6LbJPOLO8l"
+    button = "Aanmelden"
+    icon = "icon-envelope"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
+    title = "TVO Documentatie"
+    description = "Directe link naar TestVision Online documentatie"
+    url = "https://online.testvision.nl/documentatie/index.htm"
+    button = "Documentatie"
+    icon = "icon-support"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -83,7 +85,7 @@ theme = "hugo-elate-theme"
 
   # Work section
   [params.work]
-    enable = true
+    enable = false
     title = "Work"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
@@ -124,98 +126,68 @@ theme = "hugo-elate-theme"
       title = "Project 6"
       subtitle = "Design"
 
-  # Testimonials section
-  [params.testimonials]
-    enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
-    
-
-
-
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Doelen"
+    description = "De TestVision Gebruikersgroep is, na de opheffing van de TestVison Gebruikers Vereniging, in september 2019 in het leven geroepen. De verenigingsstructuur was niet meer geheel van deze tijd en was wat tevens wat te beperkt in haar toegankelijkheid. Met de Gebruikersgroep, die voor alle TestVision gebruikers toegankelijk is, hopen we een veel grotere groep mensen te kunnen betrekken. Onze doelen zijn hieronder weergegeven."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "Kennisdeling"
+      description = "TestVision biedt vele mogelijkheden van implementatie. Van individueel gebruik tot beperkte toegang voor bepaalde rollen binnen de organisatie. Zien hoe bij anderen deze inrichtingskeuzes worden gemaakt is vaak zeer verhelderend. De TestVision Gebruikersgroep is er om deze informatie middels evenementen en de mailinglijst te delen."
+      icon = "icon-people"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
+      title = "Advies"
+      description = "Zoals bij alle SaaS oplossing, doet het niet altijd wat je wil. De TestVision Gebruikersgroep is er om Teelen te advisieren over de mogelijkheden voor de roadmap."
+      icon = "icon-target"
+      
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = "Bedrijven"
+      description = "De behoeften van commerciële gebruikers van TestVison lopen zeer uiteen, van inhouse assessment tot externe certivicering. Iedere doel kent zijn eigne werkwijze. De TestVision Gebruikersgroep is er om ervaringen te delen en behoeften zichtbaar te maken."
+      icon = "icon-graph"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+    [[params.services.item]]
+      title = "Onderwijsinstellingen"
+      description = "De behoeften van onderwijsinstellingen verschillen van die uit het bedrijfsleven en zijn ook meer divers. De TestVision Gebruikersgroep is er om inzichten te delen en om behoeften in kaart te brengen."      
+      icon = "icon-university"
 
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Kernteam"
+    description = "Het kernteam van de TestVision Gebruikersgroep bestaat uit:"
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
+      name = "Sharon Klinkenberg"
+      position = "Voorzitter"
+      description = "Instelling: Universiteit van Amsterdam"
+      img = "SharonKlinkenberg.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-twitter", "https://twitter.com/shklinkenberg"],
+        ["icon-linkedin", "https://www.linkedin.com/in/sharonklinkenberg/"],
+        ["icon-globe", "http://www.klinkenberg.amsterdam"]
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Pieter Jan Schoot"
+      position = "Kernteamlid"
+      description = "Instelling: UMC Utrecht"
       img = "person2.jpg"
       alt = "Person2"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-globe", "#"]
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Annie van Schaik-Jorritsma"
+      position = "Kernteamlid"
+      description = "Bedrijf: CZ"
       img = "person3.jpg"
       alt = "Person3"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-globe", "#"]
       ]      
 
   # Counters section
@@ -225,42 +197,42 @@ theme = "hugo-elate-theme"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
-      from = 0
-      to = 89
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
-      from = 0
-      to = 2343409
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
-      from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Happy clients"
+      description = "Leden"
       icon = "icon-people"
       from = 0
-      to = 52
-      interval = 50
+      to = 89
+      interval = 1
       speed = 5000
+
+    [[params.counters.item]]
+      description = "Bedrijven"
+      icon = "icon-graph"
+      from = 0
+      to = 24
+      interval = 1
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Onderwijsinstellingen"
+      icon = "icon-university"
+      from = 0
+      to = 5
+      interval = 1
+      speed = 5000
+
+#    [[params.counters.item]]
+#      description = "Happy clients"
+#      icon = "icon-people"
+#      from = 0
+#      to = 52
+#      interval = 50
+#      speed = 5000
 
   # Contact section
   [params.contact]
-    enable = true
-    map = true
-    form = true
+    enable = false
+    map = false
+    form = false
     title = "Get in touch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     
