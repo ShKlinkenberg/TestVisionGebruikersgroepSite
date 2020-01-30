@@ -1,0 +1,12 @@
+---
+title: test
+author: me
+date: '2020-01-30'
+slug: test
+categories:
+  - R
+tags:
+  - plot
+---
+
+new post

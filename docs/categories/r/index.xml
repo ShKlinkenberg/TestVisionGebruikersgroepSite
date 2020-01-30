@@ -5,11 +5,20 @@
     <link>https://shklinkenberg.github.io/categories/r/</link>
     <description>Recent content in R on TestVision Gebruikersgroep</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <language>nl</language>
+    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://shklinkenberg.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>test</title>
+      <link>https://shklinkenberg.github.io/post/test/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shklinkenberg.github.io/post/test/</guid>
+      <description>new post</description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>
