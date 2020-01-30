@@ -2,7 +2,7 @@
 baseurl      = "https://shklinkenberg.github.io/"
 # relativeURLs = true
 title        = "TestVision Gebruikersgroep"
-languageCode = "nl"
+languageCode = "en-us"
 theme        = "hugo-elate-theme"
 enableEmoji  = true
 publishDir   = "docs"
