@@ -132,7 +132,7 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.services]
     enable = true
     title = "Doelen"
-    description = "De TestVision Gebruikersgroep is, na de opheffing van de TestVison Gebruikers Vereniging, in september 2019 in het leven geroepen. De verenigingsstructuur was niet meer geheel van deze tijd en was wat tevens wat te beperkt in haar toegankelijkheid. Met de Gebruikersgroep, die voor alle TestVision gebruikers toegankelijk is, hopen we een veel grotere groep mensen te kunnen betrekken. Onze doelen zijn hieronder weergegeven."
+    description = "De TestVision Gebruikersgroep is, na de opheffing van de TestVison Gebruikers Vereniging, in september 2019 in het leven geroepen. De verenigingsstructuur was niet meer geheel van deze tijd en was tevens wat te beperkt in haar toegankelijkheid. Met de Gebruikersgroep, die voor alle TestVision gebruikers toegankelijk is, hopen we een veel grotere groep mensen te kunnen betrekken. Onze doelen zijn hieronder weergegeven."
 
     [[params.services.item]]
       title = "Kennisdeling"
@@ -141,12 +141,12 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [[params.services.item]]
       title = "Advies"
-      description = "Zoals bij alle SaaS oplossing, doet het niet altijd wat je wil. De TestVision Gebruikersgroep is er om Teelen te advisieren over de mogelijkheden voor de roadmap."
+      description = "Zoals bij alle SaaS oplossingen, doet het niet altijd wat je wil. De TestVision Gebruikersgroep is er om Teelen te adviseren over de mogelijkheden voor de roadmap."
       icon = "icon-target"
       
     [[params.services.item]]
       title = "Bedrijven"
-      description = "De behoeften van commerciële gebruikers van TestVison lopen zeer uiteen, van inhouse assessment tot externe certivicering. Iedere doel kent zijn eigne werkwijze. De TestVision Gebruikersgroep is er om ervaringen te delen en behoeften zichtbaar te maken."
+      description = "De behoeften van commerciële gebruikers van TestVision lopen zeer uiteen, van inhouse assessment tot externe certificering. Ieder doel kent zijn eigen werkwijze. De TestVision Gebruikersgroep is er om ervaringen te delen en behoeften zichtbaar te maken."
       icon = "icon-graph"
 
     [[params.services.item]]
