@@ -56,7 +56,7 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
   [[params.intro.item]]
     title       = "Events"
-    description = "De verslagen van onze evenementen zullen onder deze pagina beschikbaar komen."
+    description = "De verslagen van onze evenementen zullen we hier plaatsen."
     url         = "#events"
     button      = "Events"
     icon        = "icon-calendar"
@@ -71,11 +71,11 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img         = "img_7.jpg"
 
   [[params.intro.item]]
-    title       = "TVO Documentatie"
-    description = "Directe link naar TestVision Online documentatie"
-    url         = "https://online.testvision.nl/documentatie/index.htm"
-    button      = "Documentatie"
-    icon        = "icon-support"
+    title       = "TVO Website"
+    description = "Directe link naar de website van TestVision Online."
+    url         = "https://www.testvision.nl"
+    button      = "TVO"
+    icon        = "icon-globe"
     img         = "img_10.jpg"
 
   [params.intro.video]
