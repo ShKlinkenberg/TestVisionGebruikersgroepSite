@@ -13,7 +13,7 @@
       {{ $link = . }}
       {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
     {{ end }}
-    <div>
+    <div class="listItems">
       <h2><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a></h2>
       <div class="article-style">
         {{ if .Params.summary }}

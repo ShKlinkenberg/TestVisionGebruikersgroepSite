@@ -2,6 +2,16 @@
 margin-bottom: 100px;
 }
 
-.text-wrap {
-  margin-top: 200px;
+#fh5co-header {
+ background-color: transparent;
+ position: relative;
+ margin-top: 0px;
+}
+
+#fh5co-header .navbar-brand{
+ color: #00a398 !important;
+}
+
+.listItems {
+ margin: 30px 0 20px 0;
 }
