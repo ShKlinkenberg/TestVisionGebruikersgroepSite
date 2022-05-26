@@ -173,19 +173,39 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ]
 
     [[params.about.item]]
-      name = "Pieter Jan Schoot"
+      name = "Joris van Kampen"
       position = "Kernteamlid"
-      description = "Instelling: UMC Utrecht"
-      img = "person2.jpg"
+      description = "Instelling: Hogeschool van Amsterdam"
+      img = "Joris.jpeg"
       alt = "Person2"
       social = [
-        ["icon-globe", "#"]
+        ["icon-linkedin", "https://www.linkedin.com/in/jorisvankampen/"]
+      ]
+      
+      [[params.about.item]]
+      name = "  Ilse Kröse"
+      position = "Kernteamlid"
+      description = "Instelling: Breda University of Applied Sciences"
+      img = "Ilse.jpeg"
+      alt = "Person2"
+      social = [
+        ["icon-linkedin", "https://www.linkedin.com/in/ilse-kröse-a9a7825/?originalSubdomain=nl"]
+      ]
+
+      [[params.about.item]]
+      name = "  Deborah Zwaan Huijsman"
+      position = "Kernteamlid"
+      description = "Instelling: Vrije Universiteit Amsterdam"
+      img = "Deborah.jpeg"
+      alt = "Person2"
+      social = [
+        ["icon-linkedin", "https://www.linkedin.com/in/deborah-zwaan-huijsman-1b8b0686/"]
       ]
 
     [[params.about.item]]
       name = "Annie van Schaik-Jorritsma"
       position = "Kernteamlid"
-      description = "Bedrijf: CZ"
+      description = "Bedrijf: CZ Zorgverzekeraar"
       img = "person3.jpg"
       alt = "Person3"
       social = [
