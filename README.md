@@ -1,4 +1,4 @@
 # TestVision Gebruikersgroep Site
 
-[Website van de TestVision Gebruikersgroep](https://shklinkenberg.github.io/TestVisionGebruikersgroepSite/index.html)
+[Website van de TestVision Gebruikersgroep](https://www.testvisiongebruikersgroep.nl)
 
