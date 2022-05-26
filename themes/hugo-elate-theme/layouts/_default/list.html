@@ -1,10 +1,8 @@
 {{- define "main" -}}
 
-{{ partial "page_header.html" . }}
-
-<div class="universal-wrapper">
+<div class="container">
   {{ with .Content }}
-  <div class="article-style">{{ . }}</div>
+  <div class="text-wrap">{{ . }}</div>
   {{ end }}
 
   {{ $paginator := .Paginate .Data.Pages }}
@@ -29,7 +27,6 @@
     </div>
   {{ end }}
 
-  {{ partial "pagination" . }}
 </div>
 
 {{- end -}}

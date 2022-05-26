@@ -57,7 +57,7 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.intro.item]]
     title       = "Events"
     description = "De verslagen van onze evenementen zullen we hier plaatsen."
-    url         = "#events"
+    url         = "post"
     button      = "Events"
     icon        = "icon-calendar"
     img         = "img_8.jpg"
