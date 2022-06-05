@@ -56,8 +56,8 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
   [[params.intro.item]]
     title       = "Events"
-    description = "De verslagen van onze evenementen zullen we hier plaatsen."
-    url         = "#events"
+    description = "Overzicht van onze evenementen."
+    url         = "events"
     button      = "Events"
     icon        = "icon-calendar"
     img         = "img_8.jpg"
@@ -71,8 +71,8 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     img         = "img_7.jpg"
 
   [[params.intro.item]]
-    title       = "TVO Website"
-    description = "Directe link naar de website van TestVision Online."
+    title       = "Testvision"
+    description = "Directe link naar de website van TestVision.    "
     url         = "https://www.testvision.nl"
     button      = "TVO"
     icon        = "icon-globe"
@@ -222,9 +222,9 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       description = "Leden"
       icon = "icon-people"
       from = 0
-      to = 89
+      to = 169
       interval = 1
-      speed = 5000
+      speed = 1000
 
     [[params.counters.item]]
       description = "Bedrijven"
@@ -232,15 +232,15 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       from = 0
       to = 24
       interval = 1
-      speed = 5000
+      speed = 1000
 
     [[params.counters.item]]
       description = "Onderwijsinstellingen"
       icon = "icon-university"
       from = 0
-      to = 5
+      to = 26
       interval = 1
-      speed = 5000
+      speed = 1000
 
 #    [[params.counters.item]]
 #      description = "Happy clients"
@@ -248,7 +248,7 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #      from = 0
 #      to = 52
 #      interval = 50
-#      speed = 5000
+#      speed = 1000
 
   # Contact section
   [params.contact]

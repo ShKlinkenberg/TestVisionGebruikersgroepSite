@@ -1,7 +1,18 @@
 ---
-title      : 'Kick-Off bijeenkomst'
+type       : "events"
+title      : 'Kick-off bijeenkomst'
 author     : 'Sharon Klinkenberg'
-date       : 2020-01-30
+date       : 2021-03-30
+draft      : false
 ---
 
-Beste TestVision Gebruiker, op vrijdag 6 maart organiseren we de kick-off bijeenkomst van de TestVision Gebruikersgroep.
+Op 26 september 2020 is op de algemene ledenvergadering besloten om te stoppen met de verenigingsstructuur en verder te gaan met een TestVision Gebruikersgroep. Het belangrijkste voordeel van de gebruikersgroep is dat deze toegankelijk is voor alle TestVision gebruikers. Of je nu functioneel beheerder bent of alleen items maakt. Iedereen is welkom om zich aan te melden.
+
+Op vrijdag 6 maart 2021 organiseerden we de kick-off bijeenkomst van de TestVision Gebruikersgroep. Hier hebben we besloten om vijf subgroepen te vormen diw zich respectievelijk richten op:
+
+* Functioneel beheer
+* Logistiek
+* Learnin analytics
+* Toetsdeskundigheid
+
+Tevens is het kernteam hier vastgesteld. De gebruikersgroep is toegankelijk voor iedereen die werkt met Testvision.

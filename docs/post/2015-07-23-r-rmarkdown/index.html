@@ -1,0 +1,149 @@
+<!DOCTYPE html>  
+<html lang="en-us">    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Hello R Markdown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Klinkenberg">
+    <meta name="description" content="Website van de TestVision gebruikersgroep">
+    <meta http-equiv="content-language" content="en-us" />
+
+  
+
+    
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TestVision Gebruikersgroep">
+    <meta property="og:title" content="Hello R Markdown">
+    <meta property="og:url" content="https://shklinkenberg.github.io/post/2015-07-23-r-rmarkdown/">
+    <meta property="og:image" content="https://shklinkenberg.github.io/images/">
+    <meta name="twitter:title" content="TestVision Gebruikersgroep" />
+    <meta name="twitter:url" content="https://shklinkenberg.github.io/post/2015-07-23-r-rmarkdown/" />
+    <meta name="twitter:image" content="https://shklinkenberg.github.io/images/" />
+    <meta name="twitter:card" content="" />
+    
+    
+    
+    <link rel="canonical" href="https://shklinkenberg.github.io/post/2015-07-23-r-rmarkdown/"/>
+
+    
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://shklinkenberg.github.io/css/leaflet.css" />
+
+    
+    <link rel="stylesheet" href="https://shklinkenberg.github.io/css/animate.css">
+    
+    <link rel="stylesheet" href="https://shklinkenberg.github.io/css/icomoon.css">
+    
+    <link rel="stylesheet" href="https://shklinkenberg.github.io/css/simple-line-icons.css">
+    
+    <link rel="stylesheet" href="https://shklinkenberg.github.io/css/magnific-popup.css">
+    
+    <link rel="stylesheet" href="https://shklinkenberg.github.io/css/bootstrap.css">
+
+    
+    <link rel="stylesheet" href="https://shklinkenberg.github.io/css/style.css">
+
+    
+    
+    <link rel="stylesheet" href="https://shklinkenberg.github.io/css/custom1.css">
+    <link rel="stylesheet" href="https://shklinkenberg.github.io/css/custom1.css">
+
+    
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    
+    
+<body>    <header role="banner" id="fh5co-header" class="nav2">
+        <div class="container">
+            
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+
+                    <a class="navbar-brand" href="https://shklinkenberg.github.io/">TVG</a> 
+                </div>
+                
+        </nav>
+        
+    </div>
+</header>
+<main><article class="article">
+
+  <div class="container">
+    <h1>Hello R Markdown</h1>
+    <div class="date">July 23, 2015</div>
+    <div class="article-style">
+      
+
+
+<div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
+</div>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie"></span>
+<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
+</div>
+
+    </div>
+
+  </div>
+</article>  
+        </main>	<footer id="footer" role="contentinfo">
+		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+		<div class="container">
+			<div class="">
+				<div class="col-md-12 text-center">
+					<p>© Elate Free HTML5. All Rights Reserved. <!-- raw HTML omitted -->Created by <!-- raw HTML omitted -->FREEHTML5.co<!-- raw HTML omitted --> Images: <!-- raw HTML omitted -->Pexels<!-- raw HTML omitted -->, <!-- raw HTML omitted -->plmd.me<!-- raw HTML omitted --> <!-- raw HTML omitted -->Hugo port by: <!-- raw HTML omitted -->saey55<!-- raw HTML omitted --></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+					
+						<li><a href="#twitter"><i class="icon-twitter"></i></a></li>
+					
+						<li><a href="#facebook"><i class="icon-facebook"></i></a></li>
+					
+						<li><a href="#youtube"><i class="icon-youtube"></i></a></li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>  
+</html>
