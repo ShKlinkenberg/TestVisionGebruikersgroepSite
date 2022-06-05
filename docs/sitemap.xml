@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.testvisiongebruikersgroep.nl/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/events/</loc>
+    <loc>/events/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/categories/events/</loc>
+    <loc>/categories/events/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/events/2022-06-05-gebruikersgroep-bijeenkomst/</loc>
+    <loc>/events/2022-06-05-gebruikersgroep-bijeenkomst/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/</loc>
+    <loc>/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/events/kickoff/</loc>
+    <loc>/events/kickoff/</loc>
     <lastmod>2021-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/tags/plot/</loc>
+    <loc>/tags/plot/</loc>
     <lastmod>2020-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/categories/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2020-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/post/test/</loc>
+    <loc>/post/test/</loc>
     <lastmod>2020-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/tags/r-markdown/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://www.testvisiongebruikersgroep.nl/tags/regression/</loc>
+    <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
 </urlset>

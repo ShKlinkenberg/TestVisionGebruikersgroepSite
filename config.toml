@@ -1,6 +1,6 @@
 # Page settings
 baseurl      = "https://www.testvisiongebruikersgroep.nl"
-# relativeURLs = true
+relativeURLs = true
 title        = "TestVision Gebruikersgroep"
 languageCode = "en-us"
 theme        = "hugo-elate-theme"
