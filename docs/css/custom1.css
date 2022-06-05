@@ -2,21 +2,33 @@
 margin-bottom: 100px;
 }
 
-#fh5co-header {
- background-color: transparent;
- position: relative;
- margin-top: 0px;
-}
 
-#fh5co-header .navbar-brand {
- color: #00a398 !important;
-}
 
-#navbar a {
- color: #00a398 !important;
+#fh5co-header.nav2 {
+ background-color: #00a398;
+position: relative;
+ margin: 0 0 30px 0; 
 }
-
 
 .listItems {
  margin: 30px 0 20px 0;
 }
+
+.date {
+  margin: -30px 0 20px 0 ;
+}
+
+/*
+
+#fh5co-header.nav2 .navbar-brand {
+ color: #00a398 !important;
+}
+
+#navbar.nav2 a {
+ color: #00a398 !important;
+}
+
+
+
+
+*/

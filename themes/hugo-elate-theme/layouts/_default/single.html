@@ -3,7 +3,8 @@
 <article class="article">
 
   <div class="container">
-
+    <h1>{{ .Title }}</h1>
+    <div class="date">{{ .Date | time.Format ":date_long" }}</div>
     <div class="article-style">
       {{ .Content }}
     </div>

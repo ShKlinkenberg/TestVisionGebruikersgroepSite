@@ -14,7 +14,7 @@
       {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
     {{ end }}
     <div class="listItems">
-      <h2><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a></h2>
+      <h2><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }} ({{ .Date | time.Format ":date_long" }})</a></h2>
       <div class="article-style">
         {{ if .Params.summary }}
           {{ .Params.summary | plainify | emojify }}
