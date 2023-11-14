@@ -161,15 +161,13 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Het kernteam van de TestVision Gebruikersgroep bestaat uit:"
 
     [[params.about.item]]
-      name = "Sharon Klinkenberg"
+      name = "Alwin Wullink"
       position = "Voorzitter"
-      description = "Instelling: Universiteit van Amsterdam"
-      img = "SharonKlinkenberg.jpg"
+      description = "Instelling: Saxion University of Applied Sciences"
+      img = "AlwinWullink.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "https://twitter.com/shklinkenberg"],
-        ["icon-linkedin", "https://www.linkedin.com/in/sharonklinkenberg/"],
-        ["icon-globe", "http://www.klinkenberg.amsterdam"]
+        ["icon-linkedin", "https://www.linkedin.com/in/alwin-wullink-4062844a/"]
       ]
 
     [[params.about.item]]
