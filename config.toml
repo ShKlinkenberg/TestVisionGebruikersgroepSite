@@ -65,7 +65,7 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.intro.item]]
     title       = "Mailinglijst"
     description = "Je kan je hier aanmelden voor de mailinglijst. Zo kan je vragen stellen aan de community."
-    url         = "https://nlpsych.eu.qualtrics.com/jfe/form/SV_cMezO6LbJPOLO8l"
+    url         = "http://eepurl.com/iDmhsU"
     button      = "Aanmelden"
     icon        = "icon-envelope"
     img         = "img_7.jpg"
