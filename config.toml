@@ -191,7 +191,7 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ]
 
       [[params.about.item]]
-      name = "Erwin scholte"
+      name = "Erwin Scholte"
       position = "Kernteamlid"
       description = "Instelling: Saxion University of Applied Sciences"
       img = "ErwinScholte.jpg"
