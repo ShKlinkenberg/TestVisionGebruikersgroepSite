@@ -171,43 +171,53 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ]
 
     [[params.about.item]]
-      name = "Joris van Kampen"
+      name = "Maartje Hensgens"
       position = "Kernteamlid"
-      description = "Instelling: Hogeschool van Amsterdam"
-      img = "Joris.jpeg"
+      description = "Instelling: Maastricht University"
+      img = "MaartjeHensgens.png"
       alt = "Person2"
       social = [
-        ["icon-linkedin", "https://www.linkedin.com/in/jorisvankampen/"]
+        ["icon-linkedin", "https://www.linkedin.com/in/maartje-hensgens/"]
       ]
       
       [[params.about.item]]
-      name = "  Ilse Kröse"
+      name = "Ilonka van Meenen"
       position = "Kernteamlid"
       description = "Instelling: Breda University of Applied Sciences"
-      img = "Ilse.jpeg"
+      img = "IlonkavanMeenen.jpg"
       alt = "Person2"
       social = [
-        ["icon-linkedin", "https://www.linkedin.com/in/ilse-kröse-a9a7825/?originalSubdomain=nl"]
+        ["icon-linkedin", "https://www.linkedin.com/in/ilonkavanmeenen/"]
       ]
 
       [[params.about.item]]
-      name = "  Deborah Zwaan Huijsman"
+      name = "Erwin scholte"
       position = "Kernteamlid"
-      description = "Instelling: Vrije Universiteit Amsterdam"
-      img = "Deborah.jpeg"
+      description = "Instelling: Saxion University of Applied Sciences"
+      img = "ErwinScholte.jpg"
       alt = "Person2"
       social = [
-        ["icon-linkedin", "https://www.linkedin.com/in/deborah-zwaan-huijsman-1b8b0686/"]
+        ["icon-linkedin", "https://www.linkedin.com/in/erwin-scholte-22099016/"]
       ]
 
-    [[params.about.item]]
-      name = "Annie van Schaik-Jorritsma"
+      [[params.about.item]]
+      name = "  Judith de Beun"
       position = "Kernteamlid"
-      description = "Bedrijf: CZ Zorgverzekeraar"
+      description = "Instelling: Breda University of Applied Sciences"
       img = "person3.jpg"
       alt = "Person3"
       social = [
-        ["icon-globe", "#"]
+        ["icon-linkedin", "https://www.linkedin.com/in/judithdebeun/"]
+      ]
+
+    [[params.about.item]]
+      name = "Anja de Koning"
+      position = "Kernteamlid"
+      description = "Instelling: Vrije Universiteit Amsterdam"
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-linkedin", "https://www.linkedin.com/in/anja-de-koning-280443144/"]
       ]      
 
   # Counters section
